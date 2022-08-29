@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: gray;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 238, 238);
+    height: 50px;
+}
+
+.logo img{
+    color: #fff;
+    padding-top: 40px;
+    width: 150px;
+    height: 80px;
+}
+
+.links{
+    padding-bottom: 40px;
+}
+.links ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+}
+
+.icons{
+    padding: 10px;
+}
+.cat img{
+    height:30px ;
+    width: 30px;
+    
+}
+
+.second-section{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding: 80px;
+}
+
+.first-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid grey;
+}
+
+.first-s img{
+    height:100px ;
+    width: 100px; 
+    padding-right: 16px;
+}
+
+.head37{
+    display: flex;
+   align-items: center;
+   padding: 4px;
+}
+
+.head37 img{
+padding-right: 6px;
+}
+
+.first-heading{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.first-heading img{
+    padding-right: 10px;
+}
+
+.fourth-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.fourth-section .basic-html{
+    display: flex;
+    align-items: center;
+    padding-right: 7px;
+    height: 80px;
+}
+
+.basic-html img{
+    height: 80px;
+    width: 80px;
+   background-color: aqua;
+   padding: 15px 10px 15px 10px;
+
+}
+
+.basic-html .text{
+    margin-left: 3em;
+    color: gray;
+    font-size: 14px;
+}
+
+.basic-html .text h2{
+    padding-top: 15px;
+}
+
+.learning {
+    font-size: 18px;
+}
+
+.learning a{
+    text-decoration: none;
+    color: rgb(11, 11, 61);
+}
+.learning a h2{
+    padding-top: 12px;
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.ongoing-l{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 30px;
+}
+
+.web-app{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.web img{
+    height: 13px;
+    width: 13px;
+}
+
+.web p{
+    font-size: 15px;
+}
+
+.web{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.language h3{
+    padding-bottom: 30px;
+}
+
+.app-web{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.web-2{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.web-2 img{
+    height: 13px;
+    width: 13px;
+}
+
+.web-2 p{
+    font-size: 15px; 
+}
+
+.allStudy{
+    padding-right: 80px;
+}
+.study img{
+    background-color: aquamarine;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   padding-bottom: 10em;
+   padding-left: 20px;
+}
+.app-play img{
+    width: 200px;
+    height: 200px;
+}
+
+.first-footer p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.second-footer h3{
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.second-footer ul li a{
+   text-decoration: none;
+    color: gray;
+}
+.second-footer ul li a:hover{
+    color: aquamarine;
+}
+
+
+.second-footer ul li{
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.all-boxs{
+    padding-top: 20px;
+    display: flex;
+    gap: 4px;
+    flex-flow: row wrap;
+}
+.box{
+    border: 1px solid gray;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(148, 105, 105)
+}
+.break{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.left-section{
+    width: 70%;
+}
+
+.right-section{
+    width: 30%;
+}
+
+.study-html{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.my-icon{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.completed-lessons{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+    width: 10px;
+}
+
+.completed-lessons img{
+    height: 13px;
+    width: 13px;
+}
+
+.git-html{
+    color: #fff;
+    display: flex;
+    gap: 1em;
+}
+
+.git{
+    border: 1px solid green;
+    width: 200px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.git p{
+    text-align: center;
+}
+
+.html{
+    border: 1px solid green;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(7, 145, 99);
+}
+
+.html p{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+.my-icon{
+    padding-bottom: 30px;
+    gap: 2;
+}
+
+.web-app{
+    padding-bottom: 30px;
+}
+
+.right-section{
+    display: flex;
+}
+
